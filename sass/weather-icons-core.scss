@@ -7,7 +7,8 @@ $wi-font-family:                 weathericons !default;
 @font-face {
     font-family: '#{$wi-font-family}';
     src: url('#{$wi-path}/#{$wi-font-family}-regular-webfont.eot');
-    src: url('#{$wi-path}/#{$wi-font-family}-regular-webfont.woff2') format('woff2'),
+    src: url('#{$wi-path}/#{$wi-font-family}-regular-webfont.eot') format('embedded-opentype'),
+         url('#{$wi-path}/#{$wi-font-family}-regular-webfont.woff2') format('woff2'),
          url('#{$wi-path}/#{$wi-font-family}-regular-webfont.woff') format('woff'),
          url('#{$wi-path}/#{$wi-font-family}-regular-webfont.ttf') format('truetype'),
          url('#{$wi-path}/#{$wi-font-family}-regular-webfont.svg') format('svg');
